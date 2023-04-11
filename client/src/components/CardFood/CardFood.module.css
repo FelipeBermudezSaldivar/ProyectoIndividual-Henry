@@ -1,0 +1,53 @@
+.container {
+  margin: 25px 25px 25px 25px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 250px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: wrap;
+  text-align: center;
+  background: white;
+}
+.imageFood {
+  border-radius: 15px;
+  width: 150px;
+  height: 100px;
+  text-align: center;
+}
+.title {
+  background-color: rgb(249, 249, 255);
+  padding: 15px;
+  color: black;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+.title:hover {
+  background-color: rgb(126, 250, 136);
+  color: white;
+  transition-duration: 25ms;
+}
+.linkRecipe {
+  text-decoration: none;
+}
+.ul {
+  display: block;
+  list-style-type: none;
+  margin-block-start: 0em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 10px;
+}
+.li {
+  border-color: solid 1px;
+  text-align: center;
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}

@@ -1,0 +1,36 @@
+.mainConteiner {
+  position: fixed;
+  padding: 15px 0px 15px 0px;
+  top: 0; /* Stick it to the top */
+  max-height: 70px;
+  width: 100%;
+  border-top: 8px solid;
+  border-color: rgba(181, 53, 246, 01);
+  display: grid;
+  grid-template-areas: "logo nav";
+  /* Cosmetics */
+  background-color: #282c34;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.button {
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  display: grid;
+  grid-area: nav;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
+}
+.a {
+  color: #fff;
+  font-family: "Creepster", cursive;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.a:hover {
+  transform: scale(1.1);
+}

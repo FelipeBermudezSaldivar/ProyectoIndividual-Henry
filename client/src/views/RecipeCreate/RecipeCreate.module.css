@@ -1,0 +1,110 @@
+.conteinerCreate {
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background: #e47d7d;
+}
+.conteinerLeft {
+  margin-right: 10px;
+  padding-left: 100px;
+  margin-top: 350px;
+  text-align: left;
+  border-radius: 15px 0px 0px 15px;
+}
+.conteinerRight {
+  width: 50%;
+  padding: 150px;
+  border-radius: 0px 15px 15px 0px;
+}
+.conteinerForm {
+  margin: 500px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  padding: 180px 90px 180px 90px;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contentForm {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 15px 30px 0px 30px;
+}
+.input {
+  margin: 4px;
+  display: inline-block;
+  width: 100%;
+  padding: 6px;
+  outline: 0;
+  border: 0;
+  border-radius: 15px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  transition: all 0.25s ease;
+  text-align: left;
+  font-size: 1em;
+}
+.select {
+  margin: 4px;
+  display: inline-block;
+  width: 85%;
+  text-align: center;
+  padding: 6px;
+  outline: 0;
+  border: 0;
+  border-radius: 15px;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  position: relative;
+  transition: all 0.25s ease;
+}
+.buttonEnviar {
+  border: none;
+  margin-top: 15px;
+  padding: 10px 55px 10px 55px;
+  border-radius: 15px;
+  background: rgba(203, 99, 212, 0.89);
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.buttonEnviar:hover {
+  background: rgba(8, 156, 57, 0.89);
+  color: white;
+}
+.label {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.h1title {
+  margin: 0;
+  padding-top: 0;
+  font-size: 65px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.spanTitle {
+  font-size: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+.buttonVolver {
+  border: none;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px 55px 10px 55px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.89);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.buttonVolver:hover {
+  background: rgb(56, 177, 40);
+  color: white;
+}
