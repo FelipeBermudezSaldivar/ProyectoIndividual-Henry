@@ -1,2 +1,2 @@
 # ProyectoIndividual-Henry
-### Proyecto individual de food
+### EL desarrollo de este proyecto se hizo con las tecnologias de React, Redux, Node.js, Express,Sequelize ,PostgreSQL y Styled Components. La dinamica de esta aplicacion fue consumir una Api externa, extraer los datos y mostrarlos en el frotend para luego ser usados de diferentes formas. Durante el desarrollo logre asentar conocimientos, mejoré mis habilidades en el manejo de estas tecnologías y poder profundizar en conceptos sobre programacion.
